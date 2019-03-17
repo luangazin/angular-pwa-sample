@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { NavComponent } from './nav/nav.component';
 
 const routes: Routes = [
+  { path: '', component: NavComponent },
   { path: 'nav', component: NavComponent },
 ];
 @NgModule({
